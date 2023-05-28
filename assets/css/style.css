@@ -1027,14 +1027,14 @@ section {
 
 .portafoliodiv {
   width: 100%;
-  height: 100%;
+  height: auto; /* Cambiado a auto para permitir que el contenedor se ajuste al contenido */
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 2%; /* Cambiado a porcentaje */
 }
 
 .portafoliodiv img {
-  max-width: 720px;
-  max-height: 720px;
+  max-width: 100%; /* Cambiado a 100% */
+  height: auto; /* Ajusta automáticamente la altura según el ancho */
   display: block;
   margin: 0 auto;
 }
@@ -1043,30 +1043,33 @@ section {
   font-size: 2rem;
   color: #fff;
   display: block;
-  margin: .3125rem 0 3.125rem 0;
+  margin: 1% 0 3% 0; /* Cambiado a porcentaje */
   text-align: center;
 }
 
-.titleportafolio span {
-  color: #E31C25;
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para pantallas de hasta 768px de ancho */
+  .titleportafolio {
+    font-size: 1.5rem; /* Ejemplo de ajuste de tamaño de fuente */
+  }
 }
 
 .linelong {
   width: 70%;
-  margin: 0.9375rem auto; /* Ajusta los márgenes según tus necesidades */
-  border-bottom: 2px solid white; /* Especifica el estilo de la línea que deseas */
-  margin-bottom: 50px;
+  margin: 1% auto; /* Cambiado a porcentaje */
+  border-bottom: 2px solid white;
+  margin-bottom: 2%; /* Cambiado a porcentaje */
 }
 
 .socials {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2%;
 }
 
 .socials a {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 1%;
 }
 
 .socials a:last-child {
