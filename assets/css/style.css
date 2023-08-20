@@ -1027,14 +1027,14 @@ section {
 
 .portafoliodiv {
   width: 100%;
-  height: auto; /* Cambiado a auto para permitir que el contenedor se ajuste al contenido */
+  height: auto; 
   display: inline-block;
-  margin-bottom: 2%; /* Cambiado a porcentaje */
+  margin-bottom: 2%; 
 }
 
 .portafoliodiv img {
-  max-width: 70%; /* Cambiado a 70% */
-  height: auto; /* Ajusta automáticamente la altura según el ancho */
+  max-width: 70%; 
+  height: auto; 
   display: block;
   margin: 0 auto;
 }
@@ -1043,7 +1043,7 @@ section {
   font-size: 2rem;
   color: #fff;
   display: block;
-  margin: 1% 0 3% 0; /* Cambiado a porcentaje */
+  margin: 1% 0 3% 0; 
   text-align: center;
 }
 
@@ -1052,17 +1052,17 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  /* Estilos específicos para pantallas de hasta 768px de ancho */
+
   .titleportafolio {
-    font-size: 1.5rem; /* Ejemplo de ajuste de tamaño de fuente */
+    font-size: 1.5rem; 
   }
 }
 
 .linelong {
   width: 70%;
-  margin: 1% auto; /* Cambiado a porcentaje */
+  margin: 1% auto; 
   border-bottom: 2px solid white;
-  margin-bottom: 2%; /* Cambiado a porcentaje */
+  margin-bottom: 2%; 
 }
 
 .socials {
@@ -1083,4 +1083,12 @@ section {
 .socials a i {
   font-size: 3rem;
   color: #fff;
+}
+
+.footerlinks {
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  margin: 1% 0 3% 0; 
+  text-align: center;
 }
